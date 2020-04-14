@@ -1,5 +1,7 @@
 # serverneat
 
+**IMPORTANT**: This project is still work in progress. Everything is subject to change.
+
 Server DSL:
 
 ```kotlin
