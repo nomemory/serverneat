@@ -2,7 +2,13 @@
 
 **IMPORTANT**: This project is still work in progress. Everything is subject to change.
 
-Server DSL:
+
+In main:
+```kotlin
+ KotlinScriptRunner().evalFile("rest-crud-example.kts", readAsResource = true, compileFirst = true)
+```
+
+In the `resources` folder create a file `rest-crud-example.kts`:
 
 ```kotlin
 
@@ -73,7 +79,9 @@ server {
 
 ```
 
-After starting the server the API is up-and-running:
+Run main. 
+
+Curl the APIs:
 
 ```
 curl localhost:8081/user/list
