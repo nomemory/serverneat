@@ -279,6 +279,9 @@ And the reponse will be
                 "creditCard1": "4332758675303071"
             },
             "gender": "Male"
-        },
-        /// and so on for 50 users
+        }
+...
 ```
+
+*and son on for the rest of the users*
+
