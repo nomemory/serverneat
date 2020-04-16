@@ -1,21 +1,66 @@
-# serverneat
+# ServerNeat
 
-**IMPORTANT**: This project is still work in progress. Everything is subject to change.
+## Intro
 
+*ServerNeat* is a Kotlin DSL for creating flexible Mock/Stub Http Servers. 
 
-In main:
-```kotlin
- KotlinScriptRunner().evalFile("rest-crud-example.kts", readAsResource = true, compileFirst = true)
+## Building the server
+
+Gradle:
+```groovy
+gradle application
 ```
 
-In the `resources` folder create a file `rest-crud-example.kts`:
+A standalone jar will be built inside the `build/libs` folder.
+
+Running the server:
+
+```
+java -jar serverneat-all-1.0-SNAPSHOT.jar -f "server.kts"
+``` 
+
+Where `server.kts` is the Kotlin script where the Mock/Stub server is defined.
+
+## Examples
+
+### Plain text response
 
 ```kotlin
+import net.andreinc.serverneat.server.server
 
-import net.andreinc.mockneat.unit.financial.CreditCards.creditCards
-import net.andreinc.serverneat.obj
-import net.andreinc.serverneat.server
-import net.andreinc.mockneat.unit.user.Names.names
+server {
+
+    httpOptions {
+        host = "localhost"
+        port = 8081
+    }
+
+    globalHeaders {
+        header("Content-Type", "application/text")
+    }
+
+    routes {
+        get {
+            path = "/plainText"
+            response {
+                header("plain", "text") // Adding a custom header to the response
+                statusCode = 200
+                plainText {
+                    value = "Hello World!"
+                }
+            }
+        }
+    }
+
+
+}.start()
+```
+
+### Json Response (Simple)
+
+```kotlin
+import net.andreinc.serverneat.mockneat.extension.obj
+import net.andreinc.serverneat.server.server
 
 server {
 
@@ -29,101 +74,43 @@ server {
     }
 
     routes {
-
         get {
-            path = "/user/list"
+            path = "/user/100"
             response {
+                header("plain", "text") // Adding a custom header to the response
                 statusCode = 200
                 json {
-                    persistent = true
-                    file = "userList.json"
                     value = obj {
-                            "users" value obj {
-                                "firstName" value names().first()
-                                "lastName" value names().last()
-                                "creditCards" value creditCards().list(10)
-                            }.list(10)
-                    }
-                }
-            }
-        }
-
-        get {
-            path = "/user/1000"
-            response {
-                statusCode = 200
-                json {
-                    persistent = true
-                    file = "userProfile.json"
-                    value = obj {
-                        "user" value obj {
-                            "firstName" const "Andrew"
-                            "lastName" const "Smith"
-                            "creditCards" value creditCards().list(15)
-                            "userId" const 1000
+                        "firstName" const "Mike"
+                        "lastName" const "Smith"
+                        "someFiles" const arrayOf("file1.txt", "file2.txt")
+                        "anotherObject" const obj {
+                            "someData"  const "someValue"
                         }
                     }
                 }
             }
         }
-
-        head {
-            path = "/user/sanity"
-            response {
-                statusCode = 200
-            }
-        }
     }
 
+
 }.start()
-
 ```
 
-Run main. 
-
-Curl the APIs:
-
-```
-curl localhost:8081/user/list
-```
-
-Reponse:
+The response for `curl localhost:8081/user/100` will look like:
 
 ```
 {
-  "users": [
-    {
-      "firstName": "Kristan",
-      "lastName": "Pecinousky",
-      "creditCards": [
-        "375647171048833",
-        "347920529111073",
-        "371184549985144",
-        "349473327586755",
-        "370307238027578",
-        "343580278024242",
-        "348120393529927",
-        "342973082782199",
-        "378901579144455",
-        "341116851066276"
-      ]
-    },
-    {
-      "firstName": "Jack",
-      "lastName": "Carhart",
-      "creditCards": [
-        "372784190137876",
-        "346877443230259",
-        "343786405499880",
-        "379487625914900",
-        "375713954377888",
-        "372430589980340",
-        "343261663796534",
-        "347858583414803",
-        "340446503381463",
-        "375318958497656"
-      ]
-    },
-...
-and so on
+  "firstName": "Mike",
+  "lastName": "Smith",
+  "anotherObject": {
+    "map": {
+      "someData": {}
+    }
+  },
+  "someFiles": [
+    "file1.txt",
+    "file2.txt"
+  ]
+}
 ```

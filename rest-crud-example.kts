@@ -1,7 +1,7 @@
 import net.andreinc.mockneat.unit.financial.CreditCards.creditCards
-import net.andreinc.serverneat.obj
-import net.andreinc.serverneat.server
 import net.andreinc.mockneat.unit.user.Names.names
+import net.andreinc.serverneat.mockneat.extension.obj
+import net.andreinc.serverneat.server.server
 
 server {
 
@@ -24,11 +24,11 @@ server {
                     persistent = true
                     file = "userList.json"
                     value = obj {
-                            "users" value obj {
-                                "firstName" value names().first()
-                                "lastName" value names().last()
-                                "creditCards" value creditCards().list(10)
-                            }.list(10)
+                        "users" value obj {
+                            "firstName" value names().first()
+                            "lastName" value names().last()
+                            "creditCards" value creditCards().list(10)
+                        }.list(10)
                     }
                 }
             }
@@ -38,6 +38,8 @@ server {
             path = "/user/1000"
             response {
                 statusCode = 200
+                header("head1", "value1")
+                header("head2", "value2")
                 json {
                     persistent = true
                     file = "userProfile.json"
@@ -53,10 +55,32 @@ server {
             }
         }
 
+        get {
+            path = "/hello/world"
+            response {
+                header("hello", "world")
+                file {
+                    file = "data/static/test.txt"
+                }
+            }
+        }
+
+        get {
+            path = "/download"
+            response {
+                fileDownload {
+                    file = "data/static/test.txt"
+                }
+            }
+        }
+
         head {
             path = "/user/sanity"
             response {
                 statusCode = 200
+                plainText {
+                    value = "Hello world"
+                }
             }
         }
     }

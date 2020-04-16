@@ -1,4 +1,4 @@
-package net.andreinc.serverneat.mockneat
+package net.andreinc.serverneat.mockneat.extension
 
 import net.andreinc.mockneat.abstraction.MockUnit
 import net.andreinc.mockneat.unit.objects.Constant.constant
@@ -39,4 +39,11 @@ class ObjectMap : MockUnit<Any> {
             return result
         }
     }
+}
+
+
+fun obj(init: ObjectMap.() -> Unit) : ObjectMap {
+    val result = ObjectMap()
+    result.apply(init)
+    return result
 }

@@ -3,6 +3,7 @@ package net.andreinc.serverneat
 import MainContext.Companion.currentClassLoader
 import MainContext.Companion.readResource
 import mu.KotlinLogging
+import net.andreinc.serverneat.logging.ansi
 import java.io.File
 import java.lang.IllegalStateException
 import javax.script.Compilable
@@ -12,7 +13,7 @@ import javax.script.ScriptEngineManager
 
 private val logger = KotlinLogging.logger {  }
 
-class KotlinScriptRunner {
+object KotlinScriptRunner {
 
     private val kotlinEngine: ScriptEngine =
         ScriptEngineManager(currentClassLoader())

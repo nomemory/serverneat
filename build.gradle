@@ -2,6 +2,19 @@ plugins {
     id 'org.jetbrains.kotlin.jvm' version '1.3.41'
 }
 
+task application(type: Jar) {
+    manifest {
+        attributes 'Main-Class': 'MainKt'
+    }
+    archiveBaseName = project.name + '-all'
+    from {
+        configurations.compile.collect {
+            it.isDirectory() ? it : zipTree(it)
+        }
+    }
+    with jar
+}
+
 group 'net.andreinc.serverneat'
 version '1.0-SNAPSHOT'
 
@@ -11,6 +24,8 @@ repositories {
 }
 
 dependencies {
+
+    compile 'info.picocli:picocli:4.2.0'
 
     // vertex
     compile "io.vertx:vertx-core:3.9.0"
@@ -30,18 +45,20 @@ dependencies {
     // json
     compile 'com.google.code.gson:gson:2.8.6'
 
-    // kotlin
-    implementation "org.jetbrains.kotlin:kotlin-script-runtime"
-    implementation "org.jetbrains.kotlin:kotlin-compiler-embeddable"
-    implementation "org.jetbrains.kotlin:kotlin-script-util"
-    implementation "org.jetbrains.kotlin:kotlin-scripting-compiler-embeddable"
+    // kotlin scripting
+    compile "org.jetbrains.kotlin:kotlin-script-runtime"
+    compile "org.jetbrains.kotlin:kotlin-compiler-embeddable"
+    compile "org.jetbrains.kotlin:kotlin-script-util"
+    compile "org.jetbrains.kotlin:kotlin-scripting-compiler-embeddable"
 
-    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
+    // kotlin lib
+    compile "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
 }
 
 compileKotlin {
     kotlinOptions.jvmTarget = "1.8"
 }
+
 compileTestKotlin {
     kotlinOptions.jvmTarget = "1.8"
 }

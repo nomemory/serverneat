@@ -1,6 +1,5 @@
-package net.andreinc.serverneat
+package net.andreinc.serverneat.logging
 
-import mu.KLogger
 import mu.KotlinLogging
 import net.andreinc.ansiscape.AnsiClass
 import net.andreinc.ansiscape.AnsiScape
@@ -22,4 +21,8 @@ val ansiScape : AnsiScape = AnsiScape(ansiScapeCtx)
 
 fun ansi(msg: String) : String {
     return ansiScape.format(msg)
+}
+
+fun main() {
+    logger.info { ansi("{red Andrei}") }
 }
