@@ -1,0 +1,2554 @@
+{
+  "users": [
+    {
+      "firstName": "Tommie",
+      "lastName": "Pecinousky",
+      "visits": [
+        {
+          "city": "Copenhagen",
+          "time": {
+            "year": 2020,
+            "month": 1,
+            "day": 7
+          }
+        },
+        {
+          "city": "Monaco",
+          "time": {
+            "year": 2020,
+            "month": 11,
+            "day": 13
+          }
+        },
+        {
+          "city": "Tallinn",
+          "time": {
+            "year": 2020,
+            "month": 10,
+            "day": 22
+          }
+        },
+        {
+          "city": "Sarajevo",
+          "time": {
+            "year": 2020,
+            "month": 3,
+            "day": 7
+          }
+        },
+        {
+          "city": "Athens",
+          "time": {
+            "year": 2020,
+            "month": 12,
+            "day": 15
+          }
+        }
+      ],
+      "financialInformation": {
+        "creditCard2": "340529111074115",
+        "creditCard1": "4647171048830798"
+      },
+      "gender": "Female"
+    },
+    {
+      "firstName": "Sid",
+      "lastName": "Falge",
+      "visits": [
+        {
+          "city": "Berlin",
+          "time": {
+            "year": 2020,
+            "month": 2,
+            "day": 22
+          }
+        },
+        {
+          "city": "Brussels",
+          "time": {
+            "year": 2020,
+            "month": 1,
+            "day": 27
+          }
+        },
+        {
+          "city": "Athens",
+          "time": {
+            "year": 2020,
+            "month": 12,
+            "day": 28
+          }
+        },
+        {
+          "city": "San Marino",
+          "time": {
+            "year": 2020,
+            "month": 10,
+            "day": 23
+          }
+        },
+        {
+          "city": "Stockholm",
+          "time": {
+            "year": 2020,
+            "month": 5,
+            "day": 12
+          }
+        }
+      ],
+      "financialInformation": {
+        "creditCard2": "373802757435803",
+        "creditCard1": "4332758675303071"
+      },
+      "gender": "Male"
+    },
+    {
+      "firstName": "Bernardo",
+      "lastName": "Vanderlaan",
+      "visits": [
+        {
+          "city": "Tirana",
+          "time": {
+            "year": 2020,
+            "month": 5,
+            "day": 1
+          }
+        },
+        {
+          "city": "Athens",
+          "time": {
+            "year": 2020,
+            "month": 1,
+            "day": 31
+          }
+        },
+        {
+          "city": "Vienna",
+          "time": {
+            "year": 2020,
+            "month": 1,
+            "day": 25
+          }
+        },
+        {
+          "city": "Bucharest",
+          "time": {
+            "year": 2020,
+            "month": 7,
+            "day": 15
+          }
+        },
+        {
+          "city": "Bucharest",
+          "time": {
+            "year": 2020,
+            "month": 6,
+            "day": 26
+          }
+        }
+      ],
+      "financialInformation": {
+        "creditCard2": "377821958901575",
+        "creditCard1": "4935299272973082"
+      },
+      "gender": "Male"
+    },
+    {
+      "firstName": "Harley",
+      "lastName": "Lablue",
+      "visits": [
+        {
+          "city": "Budapest",
+          "time": {
+            "year": 2020,
+            "month": 11,
+            "day": 27
+          }
+        },
+        {
+          "city": "Tbilisi",
+          "time": {
+            "year": 2020,
+            "month": 11,
+            "day": 3
+          }
+        },
+        {
+          "city": "Dublin",
+          "time": {
+            "year": 2020,
+            "month": 1,
+            "day": 3
+          }
+        },
+        {
+          "city": "Rome",
+          "time": {
+            "year": 2020,
+            "month": 2,
+            "day": 29
+          }
+        },
+        {
+          "city": "Stockholm",
+          "time": {
+            "year": 2020,
+            "month": 6,
+            "day": 28
+          }
+        }
+      ],
+      "financialInformation": {
+        "creditCard2": "371378746877449",
+        "creditCard1": "4066270632784197"
+      },
+      "gender": "Male"
+    },
+    {
+      "firstName": "Errol",
+      "lastName": "Southward",
+      "visits": [
+        {
+          "city": "Sofia",
+          "time": {
+            "year": 2020,
+            "month": 12,
+            "day": 29
+          }
+        },
+        {
+          "city": "Yerevan",
+          "time": {
+            "year": 2020,
+            "month": 7,
+            "day": 5
+          }
+        },
+        {
+          "city": "Vaduz",
+          "time": {
+            "year": 2020,
+            "month": 4,
+            "day": 7
+          }
+        },
+        {
+          "city": "Rome",
+          "time": {
+            "year": 2020,
+            "month": 8,
+            "day": 20
+          }
+        },
+        {
+          "city": "Baku",
+          "time": {
+            "year": 2020,
+            "month": 12,
+            "day": 2
+          }
+        }
+      ],
+      "financialInformation": {
+        "creditCard2": "344904571395431",
+        "creditCard1": "4499886948762598"
+      },
+      "gender": "Male"
+    },
+    {
+      "firstName": "Valentine",
+      "lastName": "Schiavo",
+      "visits": [
+        {
+          "city": "Prague",
+          "time": {
+            "year": 2020,
+            "month": 1,
+            "day": 1
+          }
+        },
+        {
+          "city": "Tbilisi",
+          "time": {
+            "year": 2020,
+            "month": 2,
+            "day": 26
+          }
+        },
+        {
+          "city": "Monaco",
+          "time": {
+            "year": 2020,
+            "month": 11,
+            "day": 10
+          }
+        },
+        {
+          "city": "Baku",
+          "time": {
+            "year": 2020,
+            "month": 8,
+            "day": 20
+          }
+        },
+        {
+          "city": "Minsk",
+          "time": {
+            "year": 2020,
+            "month": 2,
+            "day": 8
+          }
+        }
+      ],
+      "financialInformation": {
+        "creditCard2": "343978585834149",
+        "creditCard1": "4034132616637966"
+      },
+      "gender": "Female"
+    },
+    {
+      "firstName": "Dewitt",
+      "lastName": "Sickinger",
+      "visits": [
+        {
+          "city": "Tirana",
+          "time": {
+            "year": 2020,
+            "month": 5,
+            "day": 3
+          }
+        },
+        {
+          "city": "Prague",
+          "time": {
+            "year": 2020,
+            "month": 4,
+            "day": 26
+          }
+        },
+        {
+          "city": "Budapest",
+          "time": {
+            "year": 2020,
+            "month": 6,
+            "day": 9
+          }
+        },
+        {
+          "city": "Madrid",
+          "time": {
+            "year": 2020,
+            "month": 7,
+            "day": 26
+          }
+        },
+        {
+          "city": "Nicosia",
+          "time": {
+            "year": 2020,
+            "month": 1,
+            "day": 25
+          }
+        }
+      ],
+      "financialInformation": {
+        "creditCard2": "371189357656711",
+        "creditCard1": "4685318958497653"
+      },
+      "gender": "Female"
+    },
+    {
+      "firstName": "Dana",
+      "lastName": "Nuzum",
+      "visits": [
+        {
+          "city": "Berlin",
+          "time": {
+            "year": 2020,
+            "month": 6,
+            "day": 25
+          }
+        },
+        {
+          "city": "Vilnius",
+          "time": {
+            "year": 2020,
+            "month": 2,
+            "day": 19
+          }
+        },
+        {
+          "city": "Amsterdam",
+          "time": {
+            "year": 2020,
+            "month": 5,
+            "day": 28
+          }
+        },
+        {
+          "city": "Vilnius",
+          "time": {
+            "year": 2020,
+            "month": 12,
+            "day": 18
+          }
+        },
+        {
+          "city": "Rome",
+          "time": {
+            "year": 2020,
+            "month": 1,
+            "day": 22
+          }
+        }
+      ],
+      "financialInformation": {
+        "creditCard2": "372320857952073",
+        "creditCard1": "4878629855683436"
+      },
+      "gender": "Female"
+    },
+    {
+      "firstName": "Sterling",
+      "lastName": "Kleinke",
+      "visits": [
+        {
+          "city": "Bratislava",
+          "time": {
+            "year": 2020,
+            "month": 4,
+            "day": 3
+          }
+        },
+        {
+          "city": "Valletta",
+          "time": {
+            "year": 2020,
+            "month": 10,
+            "day": 8
+          }
+        },
+        {
+          "city": "Belgrade",
+          "time": {
+            "year": 2020,
+            "month": 3,
+            "day": 24
+          }
+        },
+        {
+          "city": "Reykjavík",
+          "time": {
+            "year": 2020,
+            "month": 12,
+            "day": 21
+          }
+        },
+        {
+          "city": "Budapest",
+          "time": {
+            "year": 2020,
+            "month": 10,
+            "day": 25
+          }
+        }
+      ],
+      "financialInformation": {
+        "creditCard2": "348958057701377",
+        "creditCard1": "4029881819781693"
+      },
+      "gender": "Male"
+    },
+    {
+      "firstName": "Lonny",
+      "lastName": "Baczewski",
+      "visits": [
+        {
+          "city": "Ljubljana",
+          "time": {
+            "year": 2020,
+            "month": 11,
+            "day": 15
+          }
+        },
+        {
+          "city": "Vaduz",
+          "time": {
+            "year": 2020,
+            "month": 3,
+            "day": 31
+          }
+        },
+        {
+          "city": "Monaco",
+          "time": {
+            "year": 2020,
+            "month": 9,
+            "day": 27
+          }
+        },
+        {
+          "city": "Athens",
+          "time": {
+            "year": 2020,
+            "month": 10,
+            "day": 29
+          }
+        },
+        {
+          "city": "Chisinau",
+          "time": {
+            "year": 2020,
+            "month": 8,
+            "day": 25
+          }
+        }
+      ],
+      "financialInformation": {
+        "creditCard2": "374778231737189",
+        "creditCard1": "4292937524882299"
+      },
+      "gender": "Male"
+    },
+    {
+      "firstName": "Domenic",
+      "lastName": "Chasser",
+      "visits": [
+        {
+          "city": "Astana",
+          "time": {
+            "year": 2020,
+            "month": 10,
+            "day": 11
+          }
+        },
+        {
+          "city": "Riga",
+          "time": {
+            "year": 2020,
+            "month": 3,
+            "day": 23
+          }
+        },
+        {
+          "city": "Zagreb",
+          "time": {
+            "year": 2020,
+            "month": 8,
+            "day": 4
+          }
+        },
+        {
+          "city": "Sarajevo",
+          "time": {
+            "year": 2020,
+            "month": 1,
+            "day": 27
+          }
+        },
+        {
+          "city": "Copenhagen",
+          "time": {
+            "year": 2020,
+            "month": 2,
+            "day": 17
+          }
+        }
+      ],
+      "financialInformation": {
+        "creditCard2": "376268943857648",
+        "creditCard1": "4299881907884063"
+      },
+      "gender": "Female"
+    },
+    {
+      "firstName": "Raymond",
+      "lastName": "Ocenasek",
+      "visits": [
+        {
+          "city": "Sofia",
+          "time": {
+            "year": 2020,
+            "month": 3,
+            "day": 27
+          }
+        },
+        {
+          "city": "Prague",
+          "time": {
+            "year": 2020,
+            "month": 5,
+            "day": 31
+          }
+        },
+        {
+          "city": "Sarajevo",
+          "time": {
+            "year": 2020,
+            "month": 7,
+            "day": 27
+          }
+        },
+        {
+          "city": "Tbilisi",
+          "time": {
+            "year": 2020,
+            "month": 4,
+            "day": 9
+          }
+        },
+        {
+          "city": "Reykjavík",
+          "time": {
+            "year": 2020,
+            "month": 9,
+            "day": 20
+          }
+        }
+      ],
+      "financialInformation": {
+        "creditCard2": "343939202653767",
+        "creditCard1": "4529305603200624"
+      },
+      "gender": "Female"
+    },
+    {
+      "firstName": "Bill",
+      "lastName": "Lawley",
+      "visits": [
+        {
+          "city": "Brussels",
+          "time": {
+            "year": 2020,
+            "month": 9,
+            "day": 20
+          }
+        },
+        {
+          "city": "London",
+          "time": {
+            "year": 2020,
+            "month": 3,
+            "day": 28
+          }
+        },
+        {
+          "city": "Andorra la Vella",
+          "time": {
+            "year": 2020,
+            "month": 4,
+            "day": 1
+          }
+        },
+        {
+          "city": "Tbilisi",
+          "time": {
+            "year": 2020,
+            "month": 9,
+            "day": 6
+          }
+        },
+        {
+          "city": "Bucharest",
+          "time": {
+            "year": 2020,
+            "month": 6,
+            "day": 1
+          }
+        }
+      ],
+      "financialInformation": {
+        "creditCard2": "374615692823035",
+        "creditCard1": "4565478389622587"
+      },
+      "gender": "Male"
+    },
+    {
+      "firstName": "Leo",
+      "lastName": "Villane",
+      "visits": [
+        {
+          "city": "Bucharest",
+          "time": {
+            "year": 2020,
+            "month": 5,
+            "day": 14
+          }
+        },
+        {
+          "city": "Nicosia",
+          "time": {
+            "year": 2020,
+            "month": 4,
+            "day": 3
+          }
+        },
+        {
+          "city": "Warsaw",
+          "time": {
+            "year": 2020,
+            "month": 8,
+            "day": 28
+          }
+        },
+        {
+          "city": "Riga",
+          "time": {
+            "year": 2020,
+            "month": 12,
+            "day": 6
+          }
+        },
+        {
+          "city": "Podgorica",
+          "time": {
+            "year": 2020,
+            "month": 6,
+            "day": 23
+          }
+        }
+      ],
+      "financialInformation": {
+        "creditCard2": "370309121675893",
+        "creditCard1": "4127400286782588"
+      },
+      "gender": "Female"
+    },
+    {
+      "firstName": "Barrett",
+      "lastName": "Hemanes",
+      "visits": [
+        {
+          "city": "London",
+          "time": {
+            "year": 2020,
+            "month": 11,
+            "day": 17
+          }
+        },
+        {
+          "city": "Sarajevo",
+          "time": {
+            "year": 2020,
+            "month": 11,
+            "day": 9
+          }
+        },
+        {
+          "city": "Monaco",
+          "time": {
+            "year": 2020,
+            "month": 9,
+            "day": 16
+          }
+        },
+        {
+          "city": "Reykjavík",
+          "time": {
+            "year": 2020,
+            "month": 3,
+            "day": 10
+          }
+        },
+        {
+          "city": "Sofia",
+          "time": {
+            "year": 2020,
+            "month": 3,
+            "day": 29
+          }
+        }
+      ],
+      "financialInformation": {
+        "creditCard2": "347795966417989",
+        "creditCard1": "4922741860153622"
+      },
+      "gender": "Male"
+    },
+    {
+      "firstName": "Daniel",
+      "lastName": "Bair",
+      "visits": [
+        {
+          "city": "Vatican City",
+          "time": {
+            "year": 2020,
+            "month": 1,
+            "day": 12
+          }
+        },
+        {
+          "city": "Vaduz",
+          "time": {
+            "year": 2020,
+            "month": 6,
+            "day": 20
+          }
+        },
+        {
+          "city": "Podgorica",
+          "time": {
+            "year": 2020,
+            "month": 1,
+            "day": 14
+          }
+        },
+        {
+          "city": "Minsk",
+          "time": {
+            "year": 2020,
+            "month": 5,
+            "day": 13
+          }
+        },
+        {
+          "city": "Berlin",
+          "time": {
+            "year": 2020,
+            "month": 10,
+            "day": 5
+          }
+        }
+      ],
+      "financialInformation": {
+        "creditCard2": "346940459903993",
+        "creditCard1": "4808924649999601"
+      },
+      "gender": "Female"
+    },
+    {
+      "firstName": "Quincy",
+      "lastName": "Inlow",
+      "visits": [
+        {
+          "city": "Chisinau",
+          "time": {
+            "year": 2020,
+            "month": 8,
+            "day": 26
+          }
+        },
+        {
+          "city": "Paris",
+          "time": {
+            "year": 2020,
+            "month": 5,
+            "day": 2
+          }
+        },
+        {
+          "city": "Andorra la Vella",
+          "time": {
+            "year": 2020,
+            "month": 7,
+            "day": 22
+          }
+        },
+        {
+          "city": "Luxembourg",
+          "time": {
+            "year": 2020,
+            "month": 12,
+            "day": 25
+          }
+        },
+        {
+          "city": "Amsterdam",
+          "time": {
+            "year": 2020,
+            "month": 6,
+            "day": 9
+          }
+        }
+      ],
+      "financialInformation": {
+        "creditCard2": "375944061148041",
+        "creditCard1": "4757233958748786"
+      },
+      "gender": "Male"
+    },
+    {
+      "firstName": "Carlo",
+      "lastName": "Browner",
+      "visits": [
+        {
+          "city": "Sarajevo",
+          "time": {
+            "year": 2020,
+            "month": 5,
+            "day": 10
+          }
+        },
+        {
+          "city": "Helsinki",
+          "time": {
+            "year": 2020,
+            "month": 7,
+            "day": 3
+          }
+        },
+        {
+          "city": "Skopje",
+          "time": {
+            "year": 2020,
+            "month": 4,
+            "day": 23
+          }
+        },
+        {
+          "city": "Zagreb",
+          "time": {
+            "year": 2020,
+            "month": 5,
+            "day": 14
+          }
+        },
+        {
+          "city": "Oslo",
+          "time": {
+            "year": 2020,
+            "month": 5,
+            "day": 27
+          }
+        }
+      ],
+      "financialInformation": {
+        "creditCard2": "371416476821441",
+        "creditCard1": "4571283785286512"
+      },
+      "gender": "Female"
+    },
+    {
+      "firstName": "Lorenzo",
+      "lastName": "Ginsel",
+      "visits": [
+        {
+          "city": "Belgrade",
+          "time": {
+            "year": 2020,
+            "month": 10,
+            "day": 23
+          }
+        },
+        {
+          "city": "Dublin",
+          "time": {
+            "year": 2020,
+            "month": 4,
+            "day": 9
+          }
+        },
+        {
+          "city": "Bratislava",
+          "time": {
+            "year": 2020,
+            "month": 3,
+            "day": 31
+          }
+        },
+        {
+          "city": "Reykjavík",
+          "time": {
+            "year": 2020,
+            "month": 10,
+            "day": 4
+          }
+        },
+        {
+          "city": "Amsterdam",
+          "time": {
+            "year": 2020,
+            "month": 3,
+            "day": 12
+          }
+        }
+      ],
+      "financialInformation": {
+        "creditCard2": "342613433500672",
+        "creditCard1": "4258799392586200"
+      },
+      "gender": "Female"
+    },
+    {
+      "firstName": "Sid",
+      "lastName": "Reder",
+      "visits": [
+        {
+          "city": "Rome",
+          "time": {
+            "year": 2020,
+            "month": 3,
+            "day": 6
+          }
+        },
+        {
+          "city": "Stockholm",
+          "time": {
+            "year": 2020,
+            "month": 11,
+            "day": 17
+          }
+        },
+        {
+          "city": "Berlin",
+          "time": {
+            "year": 2020,
+            "month": 10,
+            "day": 2
+          }
+        },
+        {
+          "city": "Bern",
+          "time": {
+            "year": 2020,
+            "month": 4,
+            "day": 22
+          }
+        },
+        {
+          "city": "Ljubljana",
+          "time": {
+            "year": 2020,
+            "month": 2,
+            "day": 22
+          }
+        }
+      ],
+      "financialInformation": {
+        "creditCard2": "371704050638251",
+        "creditCard1": "4747927629687298"
+      },
+      "gender": "Male"
+    },
+    {
+      "firstName": "Tracy",
+      "lastName": "Maltas",
+      "visits": [
+        {
+          "city": "Oslo",
+          "time": {
+            "year": 2020,
+            "month": 7,
+            "day": 31
+          }
+        },
+        {
+          "city": "Oslo",
+          "time": {
+            "year": 2020,
+            "month": 5,
+            "day": 29
+          }
+        },
+        {
+          "city": "Moscow",
+          "time": {
+            "year": 2020,
+            "month": 3,
+            "day": 4
+          }
+        },
+        {
+          "city": "Riga",
+          "time": {
+            "year": 2020,
+            "month": 1,
+            "day": 24
+          }
+        },
+        {
+          "city": "Belgrade",
+          "time": {
+            "year": 2020,
+            "month": 11,
+            "day": 5
+          }
+        }
+      ],
+      "financialInformation": {
+        "creditCard2": "371832760679735",
+        "creditCard1": "4510599931573584"
+      },
+      "gender": "Male"
+    },
+    {
+      "firstName": "Winston",
+      "lastName": "Menez",
+      "visits": [
+        {
+          "city": "Moscow",
+          "time": {
+            "year": 2020,
+            "month": 7,
+            "day": 24
+          }
+        },
+        {
+          "city": "Vatican City",
+          "time": {
+            "year": 2020,
+            "month": 7,
+            "day": 30
+          }
+        },
+        {
+          "city": "Madrid",
+          "time": {
+            "year": 2020,
+            "month": 6,
+            "day": 5
+          }
+        },
+        {
+          "city": "Lisbon",
+          "time": {
+            "year": 2020,
+            "month": 4,
+            "day": 13
+          }
+        },
+        {
+          "city": "Tbilisi",
+          "time": {
+            "year": 2020,
+            "month": 6,
+            "day": 4
+          }
+        }
+      ],
+      "financialInformation": {
+        "creditCard2": "375294842215309",
+        "creditCard1": "4303083238072435"
+      },
+      "gender": "Male"
+    },
+    {
+      "firstName": "Alex",
+      "lastName": "Lietzke",
+      "visits": [
+        {
+          "city": "Andorra la Vella",
+          "time": {
+            "year": 2020,
+            "month": 10,
+            "day": 23
+          }
+        },
+        {
+          "city": "Zagreb",
+          "time": {
+            "year": 2020,
+            "month": 11,
+            "day": 8
+          }
+        },
+        {
+          "city": "Moscow",
+          "time": {
+            "year": 2020,
+            "month": 2,
+            "day": 1
+          }
+        },
+        {
+          "city": "Monaco",
+          "time": {
+            "year": 2020,
+            "month": 8,
+            "day": 17
+          }
+        },
+        {
+          "city": "Vaduz",
+          "time": {
+            "year": 2020,
+            "month": 10,
+            "day": 28
+          }
+        }
+      ],
+      "financialInformation": {
+        "creditCard2": "348147857312227",
+        "creditCard1": "4593768093640248"
+      },
+      "gender": "Male"
+    },
+    {
+      "firstName": "Tad",
+      "lastName": "Dalmata",
+      "visits": [
+        {
+          "city": "Stockholm",
+          "time": {
+            "year": 2020,
+            "month": 10,
+            "day": 14
+          }
+        },
+        {
+          "city": "Skopje",
+          "time": {
+            "year": 2020,
+            "month": 3,
+            "day": 4
+          }
+        },
+        {
+          "city": "Tbilisi",
+          "time": {
+            "year": 2020,
+            "month": 11,
+            "day": 15
+          }
+        },
+        {
+          "city": "Lisbon",
+          "time": {
+            "year": 2020,
+            "month": 5,
+            "day": 31
+          }
+        },
+        {
+          "city": "Dublin",
+          "time": {
+            "year": 2020,
+            "month": 5,
+            "day": 1
+          }
+        }
+      ],
+      "financialInformation": {
+        "creditCard2": "348969802837846",
+        "creditCard1": "4304407364271694"
+      },
+      "gender": "Male"
+    },
+    {
+      "firstName": "Dee",
+      "lastName": "Lecrone",
+      "visits": [
+        {
+          "city": "Tbilisi",
+          "time": {
+            "year": 2020,
+            "month": 11,
+            "day": 29
+          }
+        },
+        {
+          "city": "Warsaw",
+          "time": {
+            "year": 2020,
+            "month": 7,
+            "day": 19
+          }
+        },
+        {
+          "city": "Ljubljana",
+          "time": {
+            "year": 2020,
+            "month": 12,
+            "day": 15
+          }
+        },
+        {
+          "city": "Madrid",
+          "time": {
+            "year": 2020,
+            "month": 3,
+            "day": 18
+          }
+        },
+        {
+          "city": "Yerevan",
+          "time": {
+            "year": 2020,
+            "month": 5,
+            "day": 4
+          }
+        }
+      ],
+      "financialInformation": {
+        "creditCard2": "372060399690001",
+        "creditCard1": "4706433742189030"
+      },
+      "gender": "Male"
+    },
+    {
+      "firstName": "Damien",
+      "lastName": "Duverne",
+      "visits": [
+        {
+          "city": "Vienna",
+          "time": {
+            "year": 2020,
+            "month": 4,
+            "day": 11
+          }
+        },
+        {
+          "city": "Budapest",
+          "time": {
+            "year": 2020,
+            "month": 12,
+            "day": 3
+          }
+        },
+        {
+          "city": "Skopje",
+          "time": {
+            "year": 2020,
+            "month": 3,
+            "day": 3
+          }
+        },
+        {
+          "city": "Dublin",
+          "time": {
+            "year": 2020,
+            "month": 2,
+            "day": 11
+          }
+        },
+        {
+          "city": "Luxembourg",
+          "time": {
+            "year": 2020,
+            "month": 4,
+            "day": 16
+          }
+        }
+      ],
+      "financialInformation": {
+        "creditCard2": "373025354892073",
+        "creditCard1": "4807881186245882"
+      },
+      "gender": "Male"
+    },
+    {
+      "firstName": "Eusebio",
+      "lastName": "Colmenero",
+      "visits": [
+        {
+          "city": "Valletta",
+          "time": {
+            "year": 2020,
+            "month": 7,
+            "day": 26
+          }
+        },
+        {
+          "city": "Kiev",
+          "time": {
+            "year": 2020,
+            "month": 3,
+            "day": 9
+          }
+        },
+        {
+          "city": "Tallinn",
+          "time": {
+            "year": 2020,
+            "month": 11,
+            "day": 5
+          }
+        },
+        {
+          "city": "Prague",
+          "time": {
+            "year": 2020,
+            "month": 5,
+            "day": 20
+          }
+        },
+        {
+          "city": "Luxembourg",
+          "time": {
+            "year": 2020,
+            "month": 3,
+            "day": 14
+          }
+        }
+      ],
+      "financialInformation": {
+        "creditCard2": "348602262940418",
+        "creditCard1": "4114785996823358"
+      },
+      "gender": "Female"
+    },
+    {
+      "firstName": "Ezequiel",
+      "lastName": "Farb",
+      "visits": [
+        {
+          "city": "Zagreb",
+          "time": {
+            "year": 2020,
+            "month": 12,
+            "day": 1
+          }
+        },
+        {
+          "city": "Chisinau",
+          "time": {
+            "year": 2020,
+            "month": 4,
+            "day": 7
+          }
+        },
+        {
+          "city": "Warsaw",
+          "time": {
+            "year": 2020,
+            "month": 6,
+            "day": 5
+          }
+        },
+        {
+          "city": "Madrid",
+          "time": {
+            "year": 2020,
+            "month": 5,
+            "day": 15
+          }
+        },
+        {
+          "city": "Minsk",
+          "time": {
+            "year": 2020,
+            "month": 6,
+            "day": 13
+          }
+        }
+      ],
+      "financialInformation": {
+        "creditCard2": "348763807543156",
+        "creditCard1": "4731749525545539"
+      },
+      "gender": "Male"
+    },
+    {
+      "firstName": "Colton",
+      "lastName": "Dimon",
+      "visits": [
+        {
+          "city": "Moscow",
+          "time": {
+            "year": 2020,
+            "month": 6,
+            "day": 12
+          }
+        },
+        {
+          "city": "Sarajevo",
+          "time": {
+            "year": 2020,
+            "month": 7,
+            "day": 1
+          }
+        },
+        {
+          "city": "Tallinn",
+          "time": {
+            "year": 2020,
+            "month": 11,
+            "day": 2
+          }
+        },
+        {
+          "city": "Rome",
+          "time": {
+            "year": 2020,
+            "month": 11,
+            "day": 19
+          }
+        },
+        {
+          "city": "Reykjavík",
+          "time": {
+            "year": 2020,
+            "month": 3,
+            "day": 25
+          }
+        }
+      ],
+      "financialInformation": {
+        "creditCard2": "341659641569851",
+        "creditCard1": "4248941984191287"
+      },
+      "gender": "Male"
+    },
+    {
+      "firstName": "Peter",
+      "lastName": "Kahrer",
+      "visits": [
+        {
+          "city": "Belgrade",
+          "time": {
+            "year": 2020,
+            "month": 9,
+            "day": 21
+          }
+        },
+        {
+          "city": "Valletta",
+          "time": {
+            "year": 2020,
+            "month": 8,
+            "day": 16
+          }
+        },
+        {
+          "city": "San Marino",
+          "time": {
+            "year": 2020,
+            "month": 3,
+            "day": 2
+          }
+        },
+        {
+          "city": "Berlin",
+          "time": {
+            "year": 2020,
+            "month": 10,
+            "day": 29
+          }
+        },
+        {
+          "city": "Bratislava",
+          "time": {
+            "year": 2020,
+            "month": 3,
+            "day": 3
+          }
+        }
+      ],
+      "financialInformation": {
+        "creditCard2": "340341926231025",
+        "creditCard1": "4155414070566961"
+      },
+      "gender": "Female"
+    },
+    {
+      "firstName": "Derick",
+      "lastName": "Erber",
+      "visits": [
+        {
+          "city": "Budapest",
+          "time": {
+            "year": 2020,
+            "month": 11,
+            "day": 29
+          }
+        },
+        {
+          "city": "Ankara",
+          "time": {
+            "year": 2020,
+            "month": 12,
+            "day": 26
+          }
+        },
+        {
+          "city": "London",
+          "time": {
+            "year": 2020,
+            "month": 12,
+            "day": 6
+          }
+        },
+        {
+          "city": "Chisinau",
+          "time": {
+            "year": 2020,
+            "month": 1,
+            "day": 17
+          }
+        },
+        {
+          "city": "Lisbon",
+          "time": {
+            "year": 2020,
+            "month": 7,
+            "day": 30
+          }
+        }
+      ],
+      "financialInformation": {
+        "creditCard2": "345591868254535",
+        "creditCard1": "4982647713173377"
+      },
+      "gender": "Male"
+    },
+    {
+      "firstName": "Mickey",
+      "lastName": "Swanberg",
+      "visits": [
+        {
+          "city": "Sofia",
+          "time": {
+            "year": 2020,
+            "month": 5,
+            "day": 17
+          }
+        },
+        {
+          "city": "Paris",
+          "time": {
+            "year": 2020,
+            "month": 1,
+            "day": 24
+          }
+        },
+        {
+          "city": "Prague",
+          "time": {
+            "year": 2020,
+            "month": 4,
+            "day": 5
+          }
+        },
+        {
+          "city": "Minsk",
+          "time": {
+            "year": 2020,
+            "month": 3,
+            "day": 22
+          }
+        },
+        {
+          "city": "Dublin",
+          "time": {
+            "year": 2020,
+            "month": 3,
+            "day": 26
+          }
+        }
+      ],
+      "financialInformation": {
+        "creditCard2": "349080406346280",
+        "creditCard1": "4969163345242900"
+      },
+      "gender": "Male"
+    },
+    {
+      "firstName": "Ronald",
+      "lastName": "Pillot",
+      "visits": [
+        {
+          "city": "Skopje",
+          "time": {
+            "year": 2020,
+            "month": 12,
+            "day": 29
+          }
+        },
+        {
+          "city": "Paris",
+          "time": {
+            "year": 2020,
+            "month": 2,
+            "day": 13
+          }
+        },
+        {
+          "city": "Vatican City",
+          "time": {
+            "year": 2020,
+            "month": 8,
+            "day": 5
+          }
+        },
+        {
+          "city": "Vatican City",
+          "time": {
+            "year": 2020,
+            "month": 7,
+            "day": 9
+          }
+        },
+        {
+          "city": "Brussels",
+          "time": {
+            "year": 2020,
+            "month": 6,
+            "day": 19
+          }
+        }
+      ],
+      "financialInformation": {
+        "creditCard2": "343843781208763",
+        "creditCard1": "4065483470945389"
+      },
+      "gender": "Male"
+    },
+    {
+      "firstName": "Vito",
+      "lastName": "Seitz",
+      "visits": [
+        {
+          "city": "Nicosia",
+          "time": {
+            "year": 2020,
+            "month": 1,
+            "day": 7
+          }
+        },
+        {
+          "city": "Tirana",
+          "time": {
+            "year": 2020,
+            "month": 1,
+            "day": 10
+          }
+        },
+        {
+          "city": "Sarajevo",
+          "time": {
+            "year": 2020,
+            "month": 4,
+            "day": 18
+          }
+        },
+        {
+          "city": "Podgorica",
+          "time": {
+            "year": 2020,
+            "month": 6,
+            "day": 16
+          }
+        },
+        {
+          "city": "Stockholm",
+          "time": {
+            "year": 2020,
+            "month": 3,
+            "day": 11
+          }
+        }
+      ],
+      "financialInformation": {
+        "creditCard2": "342545254767826",
+        "creditCard1": "4511644134222883"
+      },
+      "gender": "Female"
+    },
+    {
+      "firstName": "Deangelo",
+      "lastName": "Mesenbrink",
+      "visits": [
+        {
+          "city": "Helsinki",
+          "time": {
+            "year": 2020,
+            "month": 12,
+            "day": 24
+          }
+        },
+        {
+          "city": "Brussels",
+          "time": {
+            "year": 2020,
+            "month": 10,
+            "day": 16
+          }
+        },
+        {
+          "city": "Moscow",
+          "time": {
+            "year": 2020,
+            "month": 7,
+            "day": 18
+          }
+        },
+        {
+          "city": "Stockholm",
+          "time": {
+            "year": 2020,
+            "month": 11,
+            "day": 15
+          }
+        },
+        {
+          "city": "Podgorica",
+          "time": {
+            "year": 2020,
+            "month": 1,
+            "day": 22
+          }
+        }
+      ],
+      "financialInformation": {
+        "creditCard2": "378119502759006",
+        "creditCard1": "4044839066939845"
+      },
+      "gender": "Female"
+    },
+    {
+      "firstName": "Valentin",
+      "lastName": "Tanouye",
+      "visits": [
+        {
+          "city": "Vilnius",
+          "time": {
+            "year": 2020,
+            "month": 3,
+            "day": 1
+          }
+        },
+        {
+          "city": "Chisinau",
+          "time": {
+            "year": 2020,
+            "month": 2,
+            "day": 11
+          }
+        },
+        {
+          "city": "Riga",
+          "time": {
+            "year": 2020,
+            "month": 12,
+            "day": 3
+          }
+        },
+        {
+          "city": "Tallinn",
+          "time": {
+            "year": 2020,
+            "month": 8,
+            "day": 9
+          }
+        },
+        {
+          "city": "Belgrade",
+          "time": {
+            "year": 2020,
+            "month": 9,
+            "day": 6
+          }
+        }
+      ],
+      "financialInformation": {
+        "creditCard2": "378159782718504",
+        "creditCard1": "4335837195410934"
+      },
+      "gender": "Male"
+    },
+    {
+      "firstName": "Eli",
+      "lastName": "Statzer",
+      "visits": [
+        {
+          "city": "Chisinau",
+          "time": {
+            "year": 2020,
+            "month": 9,
+            "day": 8
+          }
+        },
+        {
+          "city": "Sarajevo",
+          "time": {
+            "year": 2020,
+            "month": 9,
+            "day": 6
+          }
+        },
+        {
+          "city": "Madrid",
+          "time": {
+            "year": 2020,
+            "month": 3,
+            "day": 29
+          }
+        },
+        {
+          "city": "Belgrade",
+          "time": {
+            "year": 2020,
+            "month": 10,
+            "day": 23
+          }
+        },
+        {
+          "city": "Tbilisi",
+          "time": {
+            "year": 2020,
+            "month": 3,
+            "day": 20
+          }
+        }
+      ],
+      "financialInformation": {
+        "creditCard2": "370980340996102",
+        "creditCard1": "4862965883930268"
+      },
+      "gender": "Male"
+    },
+    {
+      "firstName": "Judson",
+      "lastName": "Winnie",
+      "visits": [
+        {
+          "city": "Prague",
+          "time": {
+            "year": 2020,
+            "month": 5,
+            "day": 14
+          }
+        },
+        {
+          "city": "Brussels",
+          "time": {
+            "year": 2020,
+            "month": 2,
+            "day": 26
+          }
+        },
+        {
+          "city": "Dublin",
+          "time": {
+            "year": 2020,
+            "month": 12,
+            "day": 5
+          }
+        },
+        {
+          "city": "Tallinn",
+          "time": {
+            "year": 2020,
+            "month": 11,
+            "day": 17
+          }
+        },
+        {
+          "city": "Riga",
+          "time": {
+            "year": 2020,
+            "month": 8,
+            "day": 9
+          }
+        }
+      ],
+      "financialInformation": {
+        "creditCard2": "347308429975716",
+        "creditCard1": "4673751374773626"
+      },
+      "gender": "Female"
+    },
+    {
+      "firstName": "Shaun",
+      "lastName": "Sandage",
+      "visits": [
+        {
+          "city": "Astana",
+          "time": {
+            "year": 2020,
+            "month": 3,
+            "day": 14
+          }
+        },
+        {
+          "city": "Vaduz",
+          "time": {
+            "year": 2020,
+            "month": 3,
+            "day": 26
+          }
+        },
+        {
+          "city": "Chisinau",
+          "time": {
+            "year": 2020,
+            "month": 10,
+            "day": 4
+          }
+        },
+        {
+          "city": "Tallinn",
+          "time": {
+            "year": 2020,
+            "month": 4,
+            "day": 6
+          }
+        },
+        {
+          "city": "Reykjavík",
+          "time": {
+            "year": 2020,
+            "month": 3,
+            "day": 21
+          }
+        }
+      ],
+      "financialInformation": {
+        "creditCard2": "376550148430788",
+        "creditCard1": "4196144774195020"
+      },
+      "gender": "Male"
+    },
+    {
+      "firstName": "Caleb",
+      "lastName": "Muhr",
+      "visits": [
+        {
+          "city": "Budapest",
+          "time": {
+            "year": 2020,
+            "month": 2,
+            "day": 17
+          }
+        },
+        {
+          "city": "Vilnius",
+          "time": {
+            "year": 2020,
+            "month": 1,
+            "day": 31
+          }
+        },
+        {
+          "city": "Vaduz",
+          "time": {
+            "year": 2020,
+            "month": 9,
+            "day": 29
+          }
+        },
+        {
+          "city": "Lisbon",
+          "time": {
+            "year": 2020,
+            "month": 8,
+            "day": 26
+          }
+        },
+        {
+          "city": "Riga",
+          "time": {
+            "year": 2020,
+            "month": 3,
+            "day": 31
+          }
+        }
+      ],
+      "financialInformation": {
+        "creditCard2": "342613233199071",
+        "creditCard1": "4102771815954370"
+      },
+      "gender": "Female"
+    },
+    {
+      "firstName": "Stanton",
+      "lastName": "Snorton",
+      "visits": [
+        {
+          "city": "Valletta",
+          "time": {
+            "year": 2020,
+            "month": 4,
+            "day": 21
+          }
+        },
+        {
+          "city": "Sarajevo",
+          "time": {
+            "year": 2020,
+            "month": 3,
+            "day": 16
+          }
+        },
+        {
+          "city": "Luxembourg",
+          "time": {
+            "year": 2020,
+            "month": 4,
+            "day": 5
+          }
+        },
+        {
+          "city": "Sarajevo",
+          "time": {
+            "year": 2020,
+            "month": 3,
+            "day": 5
+          }
+        },
+        {
+          "city": "Ankara",
+          "time": {
+            "year": 2020,
+            "month": 8,
+            "day": 19
+          }
+        }
+      ],
+      "financialInformation": {
+        "creditCard2": "377043275551724",
+        "creditCard1": "4748494087656983"
+      },
+      "gender": "Male"
+    },
+    {
+      "firstName": "Hugh",
+      "lastName": "Poeppelman",
+      "visits": [
+        {
+          "city": "Helsinki",
+          "time": {
+            "year": 2020,
+            "month": 8,
+            "day": 15
+          }
+        },
+        {
+          "city": "Amsterdam",
+          "time": {
+            "year": 2020,
+            "month": 10,
+            "day": 23
+          }
+        },
+        {
+          "city": "Vaduz",
+          "time": {
+            "year": 2020,
+            "month": 3,
+            "day": 28
+          }
+        },
+        {
+          "city": "Bucharest",
+          "time": {
+            "year": 2020,
+            "month": 3,
+            "day": 26
+          }
+        },
+        {
+          "city": "Tirana",
+          "time": {
+            "year": 2020,
+            "month": 2,
+            "day": 10
+          }
+        }
+      ],
+      "financialInformation": {
+        "creditCard2": "341025382188923",
+        "creditCard1": "4580536827275093"
+      },
+      "gender": "Female"
+    },
+    {
+      "firstName": "Domenic",
+      "lastName": "Ophus",
+      "visits": [
+        {
+          "city": "Luxembourg",
+          "time": {
+            "year": 2020,
+            "month": 12,
+            "day": 22
+          }
+        },
+        {
+          "city": "Bern",
+          "time": {
+            "year": 2020,
+            "month": 6,
+            "day": 24
+          }
+        },
+        {
+          "city": "Kiev",
+          "time": {
+            "year": 2020,
+            "month": 5,
+            "day": 9
+          }
+        },
+        {
+          "city": "Ljubljana",
+          "time": {
+            "year": 2020,
+            "month": 7,
+            "day": 27
+          }
+        },
+        {
+          "city": "San Marino",
+          "time": {
+            "year": 2020,
+            "month": 3,
+            "day": 6
+          }
+        }
+      ],
+      "financialInformation": {
+        "creditCard2": "346733753262434",
+        "creditCard1": "4609740799906738"
+      },
+      "gender": "Female"
+    },
+    {
+      "firstName": "Luther",
+      "lastName": "Schalow",
+      "visits": [
+        {
+          "city": "Skopje",
+          "time": {
+            "year": 2020,
+            "month": 11,
+            "day": 11
+          }
+        },
+        {
+          "city": "Ankara",
+          "time": {
+            "year": 2020,
+            "month": 10,
+            "day": 27
+          }
+        },
+        {
+          "city": "Dublin",
+          "time": {
+            "year": 2020,
+            "month": 12,
+            "day": 26
+          }
+        },
+        {
+          "city": "Chisinau",
+          "time": {
+            "year": 2020,
+            "month": 1,
+            "day": 29
+          }
+        },
+        {
+          "city": "Reykjavík",
+          "time": {
+            "year": 2020,
+            "month": 2,
+            "day": 2
+          }
+        }
+      ],
+      "financialInformation": {
+        "creditCard2": "370163046583702",
+        "creditCard1": "4697425748888806"
+      },
+      "gender": "Female"
+    },
+    {
+      "firstName": "Marquis",
+      "lastName": "Connelley",
+      "visits": [
+        {
+          "city": "Minsk",
+          "time": {
+            "year": 2020,
+            "month": 1,
+            "day": 21
+          }
+        },
+        {
+          "city": "Luxembourg",
+          "time": {
+            "year": 2020,
+            "month": 8,
+            "day": 29
+          }
+        },
+        {
+          "city": "Astana",
+          "time": {
+            "year": 2020,
+            "month": 8,
+            "day": 24
+          }
+        },
+        {
+          "city": "Nicosia",
+          "time": {
+            "year": 2020,
+            "month": 7,
+            "day": 29
+          }
+        },
+        {
+          "city": "Vatican City",
+          "time": {
+            "year": 2020,
+            "month": 7,
+            "day": 1
+          }
+        }
+      ],
+      "financialInformation": {
+        "creditCard2": "343874360867521",
+        "creditCard1": "4359238437264950"
+      },
+      "gender": "Male"
+    },
+    {
+      "firstName": "Frank",
+      "lastName": "Akhtar",
+      "visits": [
+        {
+          "city": "Copenhagen",
+          "time": {
+            "year": 2020,
+            "month": 12,
+            "day": 5
+          }
+        },
+        {
+          "city": "Brussels",
+          "time": {
+            "year": 2020,
+            "month": 3,
+            "day": 18
+          }
+        },
+        {
+          "city": "Belgrade",
+          "time": {
+            "year": 2020,
+            "month": 5,
+            "day": 31
+          }
+        },
+        {
+          "city": "Vaduz",
+          "time": {
+            "year": 2020,
+            "month": 9,
+            "day": 24
+          }
+        },
+        {
+          "city": "Moscow",
+          "time": {
+            "year": 2020,
+            "month": 1,
+            "day": 5
+          }
+        }
+      ],
+      "financialInformation": {
+        "creditCard2": "376771728855620",
+        "creditCard1": "4223074807948169"
+      },
+      "gender": "Female"
+    },
+    {
+      "firstName": "Thanh",
+      "lastName": "Macadamia",
+      "visits": [
+        {
+          "city": "Minsk",
+          "time": {
+            "year": 2020,
+            "month": 2,
+            "day": 8
+          }
+        },
+        {
+          "city": "Andorra la Vella",
+          "time": {
+            "year": 2020,
+            "month": 4,
+            "day": 30
+          }
+        },
+        {
+          "city": "Lisbon",
+          "time": {
+            "year": 2020,
+            "month": 4,
+            "day": 11
+          }
+        },
+        {
+          "city": "Astana",
+          "time": {
+            "year": 2020,
+            "month": 10,
+            "day": 14
+          }
+        },
+        {
+          "city": "Athens",
+          "time": {
+            "year": 2020,
+            "month": 8,
+            "day": 30
+          }
+        }
+      ],
+      "financialInformation": {
+        "creditCard2": "378322368292662",
+        "creditCard1": "4396592087768339"
+      },
+      "gender": "Male"
+    },
+    {
+      "firstName": "Wilbur",
+      "lastName": "Rensing",
+      "visits": [
+        {
+          "city": "Oslo",
+          "time": {
+            "year": 2020,
+            "month": 6,
+            "day": 26
+          }
+        },
+        {
+          "city": "Berlin",
+          "time": {
+            "year": 2020,
+            "month": 10,
+            "day": 3
+          }
+        },
+        {
+          "city": "Skopje",
+          "time": {
+            "year": 2020,
+            "month": 1,
+            "day": 3
+          }
+        },
+        {
+          "city": "Skopje",
+          "time": {
+            "year": 2020,
+            "month": 10,
+            "day": 7
+          }
+        },
+        {
+          "city": "Tallinn",
+          "time": {
+            "year": 2020,
+            "month": 11,
+            "day": 19
+          }
+        }
+      ],
+      "financialInformation": {
+        "creditCard2": "346360286939344",
+        "creditCard1": "4807739489718338"
+      },
+      "gender": "Female"
+    },
+    {
+      "firstName": "Virgil",
+      "lastName": "Etzkorn",
+      "visits": [
+        {
+          "city": "Bucharest",
+          "time": {
+            "year": 2020,
+            "month": 10,
+            "day": 4
+          }
+        },
+        {
+          "city": "Sarajevo",
+          "time": {
+            "year": 2020,
+            "month": 2,
+            "day": 13
+          }
+        },
+        {
+          "city": "Bucharest",
+          "time": {
+            "year": 2020,
+            "month": 7,
+            "day": 24
+          }
+        },
+        {
+          "city": "Monaco",
+          "time": {
+            "year": 2020,
+            "month": 5,
+            "day": 12
+          }
+        },
+        {
+          "city": "Yerevan",
+          "time": {
+            "year": 2020,
+            "month": 9,
+            "day": 13
+          }
+        }
+      ],
+      "financialInformation": {
+        "creditCard2": "343500637622296",
+        "creditCard1": "4103058343533440"
+      },
+      "gender": "Male"
+    },
+    {
+      "firstName": "Herbert",
+      "lastName": "Diserens",
+      "visits": [
+        {
+          "city": "Minsk",
+          "time": {
+            "year": 2020,
+            "month": 6,
+            "day": 18
+          }
+        },
+        {
+          "city": "Minsk",
+          "time": {
+            "year": 2020,
+            "month": 12,
+            "day": 24
+          }
+        },
+        {
+          "city": "Vaduz",
+          "time": {
+            "year": 2020,
+            "month": 10,
+            "day": 26
+          }
+        },
+        {
+          "city": "Baku",
+          "time": {
+            "year": 2020,
+            "month": 5,
+            "day": 16
+          }
+        },
+        {
+          "city": "Zagreb",
+          "time": {
+            "year": 2020,
+            "month": 5,
+            "day": 22
+          }
+        }
+      ],
+      "financialInformation": {
+        "creditCard2": "374189671009321",
+        "creditCard1": "4915397428998260"
+      },
+      "gender": "Male"
+    }
+  ]
+}

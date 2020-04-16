@@ -13,8 +13,8 @@ val ansiScapeCtx : AnsiScapeContext =
         .add(AnsiClass.withName("file").add(UNDERLINE, YELLOW))
         .add(AnsiClass.withName("httpMethod").add(BOLD, GREEN))
         .add(AnsiClass.withName("logo").add(UNDERLINE, BLUE))
+        .add(AnsiClass.withName("logoNeat").add(RED, BLUE_BG))
         .add(AnsiClass.withName("path").add(UNDERLINE, BLUE))
-
 
 
 val ansiScape : AnsiScape = AnsiScape(ansiScapeCtx)
