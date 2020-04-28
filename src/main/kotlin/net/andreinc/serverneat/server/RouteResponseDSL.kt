@@ -8,6 +8,11 @@ import net.andreinc.serverneat.logging.ansi
 import net.andreinc.serverneat.mockneat.extension.ObjectMap
 import java.io.File
 import java.nio.charset.Charset
+import java.util.concurrent.ConcurrentHashMap
+import java.util.concurrent.ConcurrentMap
+import java.util.concurrent.locks.Lock
+import java.util.concurrent.locks.ReentrantLock
+import kotlin.concurrent.withLock
 
 private val logger = KotlinLogging.logger {  }
 
@@ -78,26 +83,26 @@ class RouteResponsePlainText : RouteResponseContent() {
 class RouteResponseFileDownload : RouteResponseContent() {
 
     override fun content(): String {
-        return file;
+        return path;
     }
 
-    lateinit var file : String
+    lateinit var path : String
 }
 
 @ServerNeatDslMarker
 class RouteResponseFileContent : RouteResponseContent() {
 
     var charSet : Charset = Charsets.UTF_8
-    lateinit var file : String
+    lateinit var path : String
     private lateinit var internalContent : String
 
     override fun content(): String {
         if (!this::internalContent.isInitialized) {
-            val fileOnDisk = File(file)
+            val fileOnDisk = File(path)
             if (!fileOnDisk.exists()) {
                 throw IllegalStateException("File: ${fileOnDisk.absolutePath} doesn't exist. Please check the configuration and try again.")
             }
-            internalContent = File(file).readText(charSet)
+            internalContent = File(path).readText(charSet)
             logger.info { ansi("File : {file ${fileOnDisk.canonicalPath}} content was loaded from the disk.") }
         }
         return internalContent
@@ -125,6 +130,7 @@ class RouteResponseJsonContent : RouteResponseContent() {
 
     companion object {
         private val GSON = GsonBuilder().setPrettyPrinting().create()
+        private val lock : ReentrantLock = ReentrantLock()
     }
 
     var persistent : Boolean = false

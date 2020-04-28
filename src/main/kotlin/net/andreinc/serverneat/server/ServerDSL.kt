@@ -31,7 +31,7 @@ class Server {
 
     private val globalHeaders : GlobalHeaders = GlobalHeaders()
     private val routes: Routes = Routes(router, globalHeaders.globalHeaders)
-    private val httpOptions : HttpServerOptions = HttpServerOptions()
+    val httpOptions : HttpServerOptions = HttpServerOptions()
 
     fun httpOptions(init: HttpServerOptions.() -> Unit) {
         this.httpOptions.apply(init)
@@ -57,5 +57,13 @@ class Server {
             .listen()
 
         logger.info { ansi("{logo Vert.x server} listening on port: {b ${httpOptions.port}}") }
+    }
+
+    fun stop() {
+        logger.info { ansi("Stopping {logo Vert.x server}...")}
+
+        this.vertx.close()
+
+        logger.info { ansi("{logo Vert.x server} stopped.")}
     }
 }

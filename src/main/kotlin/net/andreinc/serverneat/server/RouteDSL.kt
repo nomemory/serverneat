@@ -9,11 +9,30 @@ import kotlinx.coroutines.launch
 import mu.KotlinLogging
 import net.andreinc.mockneat.abstraction.MockUnit
 import net.andreinc.serverneat.logging.ansi
+import java.util.concurrent.atomic.AtomicLong
 
 private val logger = KotlinLogging.logger {  }
 
 @ServerNeatDslMarker
-class Routes(val router: Router, val globalHeaders: MutableMap<String, String>) {
+class Routes(private val router: Router, private val globalHeaders: MutableMap<String, String>) {
+
+    private val count: AtomicLong = AtomicLong(0)
+
+    companion object {
+
+        // A list of HTTP Methods without a response body
+        private val noBodyHttpMethods : Set<HttpMethod> =
+            setOf(
+                HttpMethod.HEAD,
+                HttpMethod.CONNECT,
+                HttpMethod.OPTIONS,
+                HttpMethod.TRACE
+            )
+
+        private fun hasNoBody(httpMethod: HttpMethod) : Boolean {
+            return httpMethod in noBodyHttpMethods
+        }
+    }
 
     private val routes : MutableList<Route> = mutableListOf()
 
@@ -54,8 +73,8 @@ class Routes(val router: Router, val globalHeaders: MutableMap<String, String>) 
         logger.info { ansi("Adding new ({httpMethod ${r.method}}) route path='{path ${r.path}}'") }
         routes.add(r)
 
-        if (r.method == HttpMethod.HEAD && r.response.contentObject !is RouteResponseEmptyContent) {
-            logger.warn { ansi("{red Found response for {httpMethod HEAD} route. Response will be ignored.}") }
+        if (hasNoBody(r.method) && r.response.contentObject !is RouteResponseEmptyContent) {
+            logger.warn { ansi("{red Found response for {httpMethod ${r.method}} route. Response will be ignored.}") }
         }
 
         router
@@ -74,10 +93,10 @@ class Routes(val router: Router, val globalHeaders: MutableMap<String, String>) 
                     response.headers().addAll(r.response.customHeaders)
                     response.statusCode = r.response.statusCode
 
-                    logger.info { ansi("({httpMethod ${r.method}}) request for path='{path ${r.path}}'") }
+                    logger.info { ansi("({httpMethod ${r.method}}) request for path='{path ${r.path}}' (requestId={b ${count.addAndGet(1)}})") }
 
                     // No need to return a body if it's HEAD
-                    if (r.method == HttpMethod.HEAD) {
+                    if (hasNoBody(r.method) && r.response.contentObject !is RouteResponseEmptyContent) {
                         response.end()
                     }
                     // If the route is responsible for returning a file to download

@@ -2,26 +2,40 @@
 
 ## Introduction
 
-*ServerNeat* is (not another) a Kotlin Web Server for mocking and stubbing Rest APIs.
+*ServerNeat* is (~not another~) a Kotlin Web Server for mocking and stubbing Rest APIs.
 
 It provides and easy to use DSL and seamless integration with [MockNeat](www.mockenat.com) for generating dynamic json responses.
 
 *ServerNeat* can be used as standalone application, capable of loading, compiling and evaluating `kts` scripts, or as a Kotlin/Java library.   
 
-## Building the standalone application
+## Building the stand-alone mock server
+
+By executing the `application` task, a a (fat) stand-alone jar is created in the `build\libs` folder:
 
 Gradle:
 ```groovy
 gradle application
 ```
 
-A standalone jar will be built inside the `build/libs` folder.
-
 Running the server:
 
 ```
 java -jar serverneat-all-1.0-SNAPSHOT.jar -f <path-to-kts-script>
 ``` 
+
+Note: in the `examples\` folder there are a few `.kts` scripts that can be used for testing.
+
+## Features
+
+The server supports the following types of responses:
+
+| ResponseType      |   Description  |
+| ------------      |   ----------- |
+| PlainText         | Responds to the HTTP by returning simple `String` values as the response body. |
+| File Content      | Responds to the request reading the content of a file and returning it as `String`. It can be useful when you want to separate the response bodies from the configuration. |
+| Resource Content  | Similar to `File Content`, except the files are read as Resources from the `resources` folder. It's particularly useful when you don't run **serverneat** as standalone application but you use it as a "library". |
+| File Download     | Useful when you want to emulate a route that is allowing the user to download a file. |
+| JSON Content      | Allows you to generate JSON in an instant using a nice DSL and www.mockneat.com integration. |    
 
 ## Examples
 
@@ -88,7 +102,7 @@ server {
                         "firstName" const "Mike"
                         "lastName" const "Smith"
                         "someFiles" const arrayOf("file1.txt", "file2.txt")
-                        "anotherObject" const obj {
+                        "anotherObject" value obj {
                             "someData"  const "someValue"
                         }
                     }
@@ -101,6 +115,8 @@ server {
 }.start()
 ```
 
+PS: When creating an inner structure it's important to use `value` instead of `const`. 
+
 Calling the service `curl localhost:8081/user/100`:
 
 ```
@@ -108,9 +124,7 @@ Calling the service `curl localhost:8081/user/100`:
   "firstName": "Mike",
   "lastName": "Smith",
   "anotherObject": {
-    "map": {
       "someData": {}
-    }
   },
   "someFiles": [
     "file1.txt",
@@ -118,6 +132,8 @@ Calling the service `curl localhost:8081/user/100`:
   ]
 }
 ```
+
+PS: When creating an inner structure it's important to use `value` instead of `const`. 
 
 ### Json Response (Dynamic - using [MockNeat](https://www.mockneat.com/))
 
@@ -280,7 +296,9 @@ And the reponse will be
             },
             "gender": "Male"
         }
-...
+    /// and so on
+    ]
+}
 ```
 
 *and son on for the rest of the users*
