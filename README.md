@@ -4,7 +4,7 @@
 
 *ServerNeat* is (~not another~) a Kotlin Web Server for mocking and stubbing Rest APIs.
 
-It provides and easy to use DSL and seamless integration with [MockNeat](www.mockenat.com) for generating dynamic json responses.
+It provides and easy to use DSL and seamless integration with [MockNeat](http://www.mockneat.com) for generating dynamic json responses.
 
 *ServerNeat* can be used as standalone application, capable of loading, compiling and evaluating `kts` scripts, or as a Kotlin/Java library.   
 
