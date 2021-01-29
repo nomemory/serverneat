@@ -55,7 +55,7 @@ dependencies {
     compile "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
 
     // testing
-    testCompile group: 'io.vertx', name: 'vertx-junit5-web-client', version: '3.9.0'
+    testCompile group: 'io.vertx', name: 'vertx-junit5-web-client', version: '3.9.5'
     testCompile 'org.junit.jupiter:junit-jupiter-api:5.3.1'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
 }
