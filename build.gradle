@@ -34,7 +34,7 @@ dependencies {
 
 
     // mockneat
-    compile 'net.andreinc.mockneat:mockneat:0.3.9'
+    compile 'net.andreinc.mockneat:mockneat:0.4.2'
 
     // logging
     compile group: 'org.slf4j', name: 'slf4j-api', version: '1.7.30'
