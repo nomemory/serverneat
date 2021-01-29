@@ -25,7 +25,7 @@ repositories {
 
 dependencies {
 
-    compile 'info.picocli:picocli:4.2.0'
+    compile 'info.picocli:picocli:4.6.1'
 
     // vertex
     compile "io.vertx:vertx-core:3.9.0"
