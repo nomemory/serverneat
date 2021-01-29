@@ -39,7 +39,7 @@ dependencies {
     // logging
     compile group: 'org.slf4j', name: 'slf4j-api', version: '1.7.30'
     compile group: 'org.slf4j', name: 'slf4j-log4j12', version: '1.7.30'
-    compile 'io.github.microutils:kotlin-logging:1.7.9'
+    compile 'io.github.microutils:kotlin-logging:2.0.4'
     compile 'net.andreinc.ansiscape:ansiscape:0.0.2'
 
     // json
