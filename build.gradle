@@ -29,8 +29,9 @@ dependencies {
 
     // vertex
     compile "io.vertx:vertx-core:3.9.0"
-    compile "io.vertx:vertx-web:4.0.2"
-    compile "io.vertx:vertx-lang-kotlin:4.0.0"
+    compile "io.vertx:vertx-web:4.0.1"
+    compile "io.vertx:vertx-lang-kotlin:4.0.2"
+
 
 
     // mockneat
