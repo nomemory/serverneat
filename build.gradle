@@ -28,7 +28,7 @@ dependencies {
     compile 'info.picocli:picocli:4.6.1'
 
     // vertex
-    compile "io.vertx:vertx-core:4.0.2"
+    compile "io.vertx:vertx-core:4.0.3"
     compile "io.vertx:vertx-web:4.0.2"
     compile "io.vertx:vertx-lang-kotlin:4.0.2"
 
