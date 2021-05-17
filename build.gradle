@@ -57,7 +57,7 @@ dependencies {
 
     // testing
     testCompile group: 'io.vertx', name: 'vertx-junit5-web-client', version: '3.9.7'
-    testCompile 'org.junit.jupiter:junit-jupiter-api:5.7.1'
+    testCompile 'org.junit.jupiter:junit-jupiter-api:5.7.2'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
 }
 
